@@ -23,8 +23,8 @@ MedAssist is an intelligent medication assistance system that helps users find a
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/drugbot.git
-cd drugbot
+git clone https://github.com/your-username/MedAssist.git
+cd MedAssist
 ```
 
 2. Install dependencies:
@@ -35,6 +35,7 @@ pip install -r requirements.txt
 3. Download required datasets:
    - Drug reviews dataset (e.g., `drugsComTrain_raw.csv`)
    - FDA dataset (e.g., `combined_all.csv`)
+   - Drive link available in report
 
 ### Usage
 
@@ -154,11 +155,11 @@ pip install -r requirements-dev.txt
 pytest tests/
 
 # Format code
-black drugbot/
-isort drugbot/
+black MedAssist/
+isort MedAssist/
 
 # Lint code
-flake8 drugbot/
+flake8 MedAssist/
 ```
 
 
